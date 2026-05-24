@@ -12,6 +12,8 @@ add_executable(main
     handlers/Nelder_Mid.cpp
     handlers/Visualizer.cpp
     handlers/Panel.cpp
+    handlers/Visualizer.cpp 
+    handlers/Visualizer_3D.cpp
 )
 
 target_link_libraries(main
